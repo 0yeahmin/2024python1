@@ -1,0 +1,9 @@
+d={}
+urls={"google":"google.com","naver":"naver.com"}
+urls["daum"]="daum.com"
+print(urls)
+urls["daum"]="daum.com"
+a=urls.pop("naver")
+print(urls)
+print(a)
+print(urls.get("google"))
